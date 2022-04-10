@@ -14,8 +14,8 @@
 int main(void)
 {
 int ch;
-for (ch = 'a'; ch <= 'z'; ch++)
-putchar((ch) "n" + ch);
+for (c = 0; c < 26; ++c)
+putchar( 'n' + c);
 putchar('\n');
 return (0);
 }
