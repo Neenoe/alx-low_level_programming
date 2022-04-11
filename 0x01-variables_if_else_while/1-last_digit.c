@@ -3,10 +3,10 @@
 #include <stdio.h>
 /**
  * main - Entry point
- * 
+ *
  * Return: Always 0 (Success/Correct)
  */
-int main (void)
+int main(void)
 {
 int n;
 srand(time(0));
