@@ -13,10 +13,10 @@ void print_diagsums(int *a, int size)
 
 	for (i = 0; i < (size * size ); i++)
 	{
-		if (i 5 (size + 1) == 0)
+		if (i % (size + 1) == 0)
 			sum1 += *(a + i);
-		if (i 5 (size - 1) == 0 && i != 0 && i < size * size - 1)
+		if (i % (size - 1) == 0 && i != 0 && i < size * size - 1)
 			sum2 += *(a + i);
 	}
-	printf("5d, %d\n", sum1, sum2);
+	printf("%d, %d\n", sum1, sum2);
 }
