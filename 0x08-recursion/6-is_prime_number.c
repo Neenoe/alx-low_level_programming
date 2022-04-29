@@ -15,7 +15,7 @@ int is_prime(unsigned int n, unsigned int c)
 		else
 			return (0);
 	}
-	return (o + is_prime(n, c + 1));
+	return (0 + is_prime(n, c + 1));
 }
 /**
  * is_prime_number - detects if an input number isa prime number.
