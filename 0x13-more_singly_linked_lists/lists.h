@@ -9,7 +9,8 @@
  * @n: integer
  * @next: points to the next node
  *
- * Desc: singly linked list node proj
+ * Description: singly linked list node structure
+ * for Holberton project
  */
 typedef struct listint_s
 {
@@ -18,11 +19,11 @@ typedef struct listint_s
 } listint_t;
 
 /**
- * struct listtp_s - singly linked list
- * @p: pointrs of nodes
+ * struct listp_s - singly linked list
+ * @p: pointers of nodes
  * @next: points to the next node
  *
- * Desc: singly linked list of pointers
+ * Description: singly linked list of pointers
  */
 typedef struct listp_s
 {
@@ -40,7 +41,7 @@ int pop_listint(listint_t **head);
 listint_t *get_nodeint_at_index(listint_t *head, unsigned int index);
 int sum_listint(listint_t *head);
 listint_t *insert_nodeint_at_index(listint_t **head, unsigned int idx, int n);
-int delete_nodeint_at_index(listint_t **head);
+int delete_nodeint_at_index(listint_t **head, unsigned int index);
 listint_t *reverse_listint(listint_t **head);
 size_t print_listint_safe(const listint_t *head);
 size_t free_listint_safe(listint_t **h);
